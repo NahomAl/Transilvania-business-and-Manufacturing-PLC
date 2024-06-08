@@ -1,19 +1,114 @@
-body {
-    color: #FFFFFF;
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
-
 .hero{
+    width: 100%;
+    height: 99vh;
     background-image: url("/img/bg.jpg");
-    background-size: cover;
     background-position: center;
-    height: 100vh;
+    background-size: cover;
+    padding: 1px 0%;
+    overflow: hidden;
+}
+nav {
+    padding: 10px 0;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.logo{
+    width: 90px;
+    margin-left: 1%;
+    display: inline-block;
+    list-style: none;
+}
+.hero nav a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 0% !important;
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
     color: white;
-    text-align: center;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+}
+.content{
+    margin-top: 10%;
+    max-width: 600px;
+    margin-left: 10%;
+}
+.content h1{
+    font-size: 55px;
+    color: white;
+    font-weight: 700;
+    }
+.content h1 span {
+        color: #D6B02C;
+        }
+.content p{
+            font-size: 25px;
+            color: white;
+            font-weight: 400;
+            margin-top: 20px;
+            animation-delay: 0.5s;
+}
+.content .btn{
+    padding: 15px 80px;
+    font-size: 16px;
+    animation-delay: 1s;
 }
 
-.golden{
-    color: #D6B02C;
+.btn:hover{
+    border-top-right-radius: 30px;
+}
+.full-logo{
+    width: 530px;
+    position: absolute;
+    top: 20%;
+    right: 12%;
+    border-radius: 20%;
+    animation-delay: 2s;
+    opacity: 0.9;
+}
+.full-logo.anime{
+    animation-delay: 3s;
+}
+.anim{
+    opacity: 0;
+    animation: animate 1s 0.5s forwards;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
