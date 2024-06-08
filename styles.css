@@ -1,75 +1,19 @@
 body {
-    background-color: #211951 !important;
     color: #FFFFFF;
 }
 
-write-story {
-    background-color: white;
-    font-size: 1.5rem;
-    color: black;
-}
-
-#write-title {
-    color: #FFFFFF !important;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 5rem;
-}
-
-.navbar{
-    background-color: #FFFFFF;
-    height: 60px;
-    color: black !important;
-}
-
-.button {
-    display: inline-block;
-    text-decoration: none;
-    padding: 14px 40px;
-
-    font-size: 1rem;
-    border-radius: 30px;
-    border-top-right-radius: 0;
-    
-    background: linear-gradient(-45deg, #decf24, #ff35b2, #b300ffbb, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
-    border-color: transparent;
+.hero{
+    background-image: url("/img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    transition: 0.5s;
-}
-.button:hover{
-    border-top-right-radius: 30px;
-}
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
-#search-btn{
-    border-color: #00d0ff;
-    color: #00d0ff;
-    transition: 0.5s;
-}
-#serch-btn:hover{
-    border-color: transparent;
-    background-color: #00d0ff;
-    color: #fff;
+    text-align: center;
 }
 
-.logo-title{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2rem;
-    color: #211951;
+.golden{
+    color: #D6B02C;
 }
