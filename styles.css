@@ -6,17 +6,17 @@
 }
 .hero{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     background-image: url("./img/bg.jpg");
     background-position: center;
     background-size: cover;
     overflow: hidden;
 }
 .navbar {
-    padding: 10px 0;
+    padding: 0px 0;
     overflow: hidden;
     display: flex;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     align-items: center;
     justify-content: space-between;
@@ -113,10 +113,16 @@ nav ul li a{
         transform: translateY(0);
     }
 }
+
+
 .product{
     margin-left: 5%;
 }
-
+.product-img{
+    width: 500px;
+    height: 500px;
+    border-radius: 15%;
+}
 .gradient-background {
     background: linear-gradient(300deg,#16163D,#FFDB3B, #00bfff);
     background-size: 180% 180%;
