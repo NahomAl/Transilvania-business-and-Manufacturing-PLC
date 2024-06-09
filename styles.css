@@ -50,7 +50,7 @@ nav ul li a{
     font-weight: 400;
     font-size: 18px;
 }
-.btn{
+/* .btn{
     display: inline-block;
     text-decoration: none;
     padding: 14px 40px;
@@ -61,45 +61,39 @@ nav ul li a{
     border-radius: 30px;
     border-top-right-radius: 0;
     transition: 0.5s;
-}
+    z-index: 1100;
+} */
 .content{
     margin-top: 10%;
     max-width: 600px;
     margin-left: 10%;
 }
+/* .content .btn{
+    padding: 15px 80px;
+    font-size: 17px;
+    animation-delay: 1.5s;
+} */
+/* .btn:hover{
+    border-top-right-radius: 30px;
+    font-size: 21px;
+    z-index: 2;
+} */
 .content h1{
-    font-size: 60px;
-    /* color: rgb(27, 35, 67); */
+    font-size: 105px;
     color: rgb(255, 255, 255);
     font-weight: 700;
+    animation-delay: 1s;
     }
 .content h1 span {
         color: #ffc907;
         }
-.content p{
-            font-size: 30px;
-            color: rgb(255, 255, 255);
-            background-color: #2a1d6445;
-            font-weight: 500;
-            margin-top: 20px;
-            animation-delay: 1s;
-}
-.content .btn{
-    padding: 15px 80px;
-    font-size: 17px;
-    animation-delay: 1.5s;
-}
 
-.btn:hover{
-    border-top-right-radius: 30px;
-    font-size: 21px;
-    z-index: 2;
-}
+
 .full-logo{
     width: 530px;
     position: absolute;
-    top: 15%;
-    right: 12%;
+    top: 25%;
+    right: 10%;
     border-radius: 20%;
     animation-delay: 2s;
     opacity: 95%;
