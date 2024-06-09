@@ -8,7 +8,7 @@
 .hero{
     width: 100vw;
     height: 100vh;
-    background-image: url("./img/bg.jpg");
+    background-image: url("./img/bg-images.png");
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -68,17 +68,19 @@ nav ul li a{
     margin-left: 10%;
 }
 .content h1{
-    font-size: 55px;
-    color: white;
+    font-size: 60px;
+    /* color: rgb(27, 35, 67); */
+    color: rgb(255, 255, 255);
     font-weight: 700;
     }
 .content h1 span {
-        color: #D6B02C;
+        color: #ffc907;
         }
 .content p{
-            font-size: 25px;
-            color: white;
-            font-weight: 400;
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+            background-color: #2a1d6445;
+            font-weight: 500;
             margin-top: 20px;
             animation-delay: 1s;
 }
@@ -100,7 +102,13 @@ nav ul li a{
     right: 12%;
     border-radius: 20%;
     animation-delay: 2s;
-    opacity: 85%;
+    opacity: 95%;
+    transition: 1s;
+}
+.full-logo:hover {
+    transform: scale(1.1);
+    opacity: 100%;
+    z-index: 2;
 }
 .anim{
     opacity: 0;
@@ -120,8 +128,8 @@ nav ul li a{
 
 .product{
     margin: 7%;
-    margin-left: 10%;
-    margin-right: 8%;
+    /* margin-left: 10%;
+    margin-right: 8%; */
 }
 .box {
     width: 500px;
@@ -158,4 +166,7 @@ nav ul li a{
     100% {
         background-position: 0% 50%;
     }
+}
+footer{
+    color: #000;
 }
