@@ -228,6 +228,12 @@ footer{
         overflow: hidden;
         background-color: #000000;
     }
+    .details h2 {
+        opacity: 0;
+    }
+    .details p {
+        opacity: 0;
+    }
 
 }
 @media (max-width:800px) {
@@ -243,7 +249,7 @@ footer{
             transition: 1s;
         }
         .content h1 {
-            font-size: 70px;
+            font-size: 60px;
             color: #ffffff;
             font-weight: 700;
             animation-delay: 1s;
