@@ -197,7 +197,7 @@ footer{
     }
 
 .content h1 {
-    font-size: 90px;
+    font-size: 60px;
     color: #ffffff;
     font-weight: 700;
     animation-delay: 1s;
@@ -228,6 +228,7 @@ footer{
         overflow: hidden;
         background-color: #000000;
     }
+
 }
 @media (max-width:800px) {
 
@@ -242,7 +243,7 @@ footer{
             transition: 1s;
         }
         .content h1 {
-            font-size: 80px;
+            font-size: 70px;
             color: #ffffff;
             font-weight: 700;
             animation-delay: 1s;
@@ -260,15 +261,17 @@ footer{
         transform: scale(1.1);
         z-index: 2;
     }
-    .full-logo:hover {
-        transform: scale(1.1);
-        opacity: 0;
-        z-index: 2;
-    }
     .product-img {
         width: 500px;
         height: 350px;
     }
+        .details h2 {
+            opacity: 0;
+        }
+    
+        .details p {
+            opacity: 0;
+        }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
