@@ -258,7 +258,7 @@ footer{
           margin-left: 25% !important;
         }
     .overlay:hover {
-        opacity: 0;
+        opacity: 0 !important;
         transform: scale(1.1);
         z-index: 2;
     }
