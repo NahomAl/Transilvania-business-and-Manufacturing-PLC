@@ -20,6 +20,10 @@ body {
     overflow: hidden;
     background-color: #000000;
 }
+.hader2{
+    padding-top: 150px !important;
+    padding-bottom: 20px !important;
+}
 .navbar {
     padding: 0px 0;
     overflow: hidden;
@@ -125,7 +129,7 @@ nav ul li a{
     height: 450px;
     border-radius: 15%;
     box-shadow: 5px 5px 10px 5px rgb(0, 0, 0, 0.15);
-    transition: 0.8s;
+    transition: 1s;
 }
 .overlay {
     top: 0;
@@ -139,9 +143,9 @@ nav ul li a{
     justify-content: center;
     aLign-items: center;
     opacity: 0;
-    transition: 0.8s;
+    transition: 1s;
 }
-.overlay:hover {
+.img-container:hover .overlay {
     opacity: 1;
     transform: scale(1.1);
     z-index: 2;
@@ -152,9 +156,9 @@ nav ul li a{
 }
 
 .gradient-background {
-    background: linear-gradient(300deg,#16163D,#FFDB3B, #00bfff);
+    background: linear-gradient(300deg,#2424f8,#c137cb, #08b5f9);
     background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
+    animation: gradient-animation 30s ease infinite;
 }
 
 @keyframes gradient-animation {
